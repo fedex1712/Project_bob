@@ -19,8 +19,8 @@ for w in permutations(lett, 2):
 
         if x>99:
             url= str(x)
-        f = open("demofile2.txt", "a")
-        f.write(url+let1+let2+"\n")
+        f = open("targhe.txt", "a")
+        f.write("LA"+url+let1+let2+"\n")
         f.close()
 for dic in permutations(lett, 1):
     let1=dic[0]
@@ -35,6 +35,6 @@ for dic in permutations(lett, 1):
 
         if x>99:
             url= str(x)
-        f = open("demofile2.txt", "a")
-        f.write(url+let1+let2+"\n")
+        f = open("targhe.txt", "a")
+        f.write("LA"+url+let1+let2+"\n")
         f.close()
